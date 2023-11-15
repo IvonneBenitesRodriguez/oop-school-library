@@ -20,8 +20,8 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [oop_school_library] <a name="about-project"></a>
-*OOP School Library* is a school library app. In this part of the project, we will
-use the **Decorator Design Pattern** to correct names of people.
+*OOP School Library* is a school library app. In this part of the project, we
+used the **Decorator Design Pattern** to correct names of people.
 <br/>
 
 ## 🛠 Built With <a name="built-with"></a>
