@@ -1,4 +1,3 @@
-# class representing a person
 require_relative 'nameable'
 require_relative 'decorator'
 require_relative 'capitalize_decorator'
@@ -6,6 +5,7 @@ require_relative 'trimmer_decorator'
 require_relative 'classroom'
 require_relative 'rental'
 
+# class representing a person
 class Person < Nameable
   attr_accessor :name, :age, :rentals
   attr_reader :id, :classroom
