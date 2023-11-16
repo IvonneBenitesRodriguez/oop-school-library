@@ -76,7 +76,7 @@ Clone this repository to your desired folder:
 
 ## 🔭🌷 Future Features <a name="future-features"></a>
 
-- [ ] **[Refactor-our-code]**
+- [ ] **[Refactor-code]**
 - [ ] **[Add Basic UI]**
   
 
