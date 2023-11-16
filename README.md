@@ -20,8 +20,8 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [oop_school_library] <a name="about-project"></a>
-*OOP School Library* is a school library app. In this part of the project, we
-used the **Decorator Design Pattern** to correct names of people.
+*OOP School Library* is a school library app. In this part of the project,
+ it is important to highlight the association between classes and objects.
 <br/>
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -37,13 +37,13 @@ used the **Decorator Design Pattern** to correct names of people.
 
 ### 🌸🌷 Key Features <a name="key-features"></a>
 
-- **[Classes]**
-- **[Decorator Design Pattern]**
-- **[Composition Implementation]**
+- **[Add new students]**
+- **[Add Books]**
+- **[Usage of Associations between classes & objects]**
 - **[instance variable]**
 - **[method creation]**
 - **[Constructor: super]**
-- **[run the code using ruby keyword]**
+- **[Getter and Setters]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -76,7 +76,7 @@ Clone this repository to your desired folder:
 
 ## 🔭🌷 Future Features <a name="future-features"></a>
 
-- [ ] **[Set-Up Associations]**
+- [ ] **[Refactor-our-code]**
 - [ ] **[Add Basic UI]**
   
 
