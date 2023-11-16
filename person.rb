@@ -8,10 +8,10 @@ class Person
   attr_accessor :name, :age
   attr_reader :id
 
-  def initialize(name, age = 'Unknown', parent_permission: true)
+  def initialize( age = 'Unknown', name, parent_permission: true)
     @id = rand(1..1000)
-    @name = name
     @age = age
+    @name = name
     @parent_permission = parent_permission
   end
 
@@ -30,7 +30,7 @@ class Person
   end
 end
 
-person = Person.new('maximilianus', 22)
+person = Person.new(22, 'maximilianus')
 puts person.correct_name
 capitalized_person = CapitalizeDecorator.new(person)
 puts capitalized_person.correct_name
