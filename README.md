@@ -21,7 +21,7 @@
 
 # 📖 [oop_school_library] <a name="about-project"></a>
 *OOP School Library* is a school library app. In this part of the project,
- it is important to highlight the association between classes and objects.
+ a form of UI is created.
 <br/>
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -39,11 +39,8 @@
 
 - **[Add new students]**
 - **[Add Books]**
-- **[Usage of Associations between classes & objects]**
-- **[instance variable]**
-- **[method creation]**
-- **[Constructor: super]**
-- **[Getter and Setters]**
+- **[Add new teachers]**
+- **[track of the borred items]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -77,7 +74,7 @@ Clone this repository to your desired folder:
 ## 🔭🌷 Future Features <a name="future-features"></a>
 
 - [ ] **[Refactor-code]**
-- [ ] **[Add Basic UI]**
+- [ ] **[preserve data]**
   
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
