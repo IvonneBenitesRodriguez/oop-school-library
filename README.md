@@ -36,12 +36,11 @@
 </details>
 
 ### 🌸🌷 Key Features <a name="key-features"></a>
-<!-- 
 - **[Refactor code]**
 - **[SOLID Principles used]**
 - **[Ruby Style Guide used]**
 - **[Single Responsability Principle used]**
-- **[Ruby linters passed]** -->
+- **[Ruby linters passed]** 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
