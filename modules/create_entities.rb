@@ -1,28 +1,28 @@
-# require_relative '../classroom'
-# require_relative '../person'
-# require_relative '../student'
-# require_relative '../teacher'
-# require_relative '../book'
-# require_relative '../rental'
+require_relative '../classroom'
+require_relative '../person'
+require_relative '../student'
+require_relative '../teacher'
+require_relative '../book'
+require_relative '../rental'
 
-# module CreateEntities
-#   def create_person
-#     puts 'Do you want to create a student (1) or a teacher(2) ? [Input the number]: '
-#     person_type = gets.chomp
+module CreateEntities
+  def create_person
+    puts 'Do you want to create a student (1) or a teacher(2) ? [Input the number]: '
+    person_type = gets.chomp
 
-#     case person_type
-#     when '1'
-#       student = create_student
-#       puts 'Student created successfully'
-#       student
-#     when '2'
-#       teacher = create_teacher
-#       puts 'Teacher created successfully'
-#       teacher
-#     else
-#       puts 'Invalid option'
-#     end
-#   end
+    case person_type
+    when '1'
+      student = create_student
+      puts 'Student created successfully'
+      student
+    when '2'
+      teacher = create_teacher
+      puts 'Teacher created successfully'
+      teacher
+    else
+      puts 'Invalid option'
+    end
+  end
 
   def create_student
     print 'Name: '

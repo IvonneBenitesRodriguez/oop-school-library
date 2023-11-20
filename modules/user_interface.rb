@@ -9,19 +9,19 @@ module UserInterface
     7 => :exit_app
   }.freeze
 
-#   def display_menu
-#     puts "\nPlease choose an option:"
-#     MENU_OPTIONS.each { |key, value| puts "#{key} - #{value.to_s.tr('_', '')}" }
-#     print 'Option: '
-#     gets.chomp.to_i
-#   end
+  def display_menu
+    puts "\nPlease choose an option:"
+    MENU_OPTIONS.each { |key, value| puts "#{key} - #{value.to_s.tr('_', '')}" }
+    print 'Option: '
+    gets.chomp.to_i
+  end
 
-#   def handle_option(app, option)
-#     action = MENU_OPTIONS[option]
-#     if action
-#       app.send(action)
-#     else
-#       puts 'Invalid option. Please try again.'
-#     end
-#   end
-# end
+  def handle_option(app, option)
+    action = MENU_OPTIONS[option]
+    if action
+      app.send(action)
+    else
+      puts 'Invalid option. Please try again.'
+    end
+  end
+end
