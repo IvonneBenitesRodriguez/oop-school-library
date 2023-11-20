@@ -5,24 +5,24 @@ require_relative 'teacher'
 require_relative 'rental'
 require_relative 'classroom'
 
-# require_relative 'modules/create_entities'
-# require_relative 'modules/list_entities'
+require_relative 'modules/create_entities'
+require_relative 'modules/list_entities'
 
-# class App
-#   include CreateEntities
-#   include ListEntities
-#   attr_accessor :books, :people, :rentals
+class App
+  include CreateEntities
+  include ListEntities
+  attr_accessor :books, :people, :rentals
 
-#   def initialize
-#     @books = []
-#     @people = []
-#     @rentals = []
-#   end
+  def initialize
+    @books = []
+    @people = []
+    @rentals = []
+  end
 
-#   def create_person
-#     person = super
-#     @people << person
-#   end
+  def create_person
+    person = super
+    @people << person
+  end
 
   def create_book
     book = super
