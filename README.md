@@ -21,7 +21,7 @@
 
 # 📖 [oop_school_library] <a name="about-project"></a>
 *OOP School Library* is a school library app. In this part of the project,
- a form of UI is created.
+ we had refactored our code using the principle of **SRP Single Responsability Principle**.
 <br/>
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -36,12 +36,11 @@
 </details>
 
 ### 🌸🌷 Key Features <a name="key-features"></a>
-
-- **[Add new students]**
-- **[Add Books]**
-- **[Add new teachers]**
-- **[track of the borred items]**
-
+- **[Refactor code]**
+- **[SOLID Principles used]**
+- **[Ruby Style Guide used]**
+- **[Single Responsability Principle used]**
+- **[Ruby linters passed]** 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -68,13 +67,21 @@ Clone this repository to your desired folder:
 - 🌷GitHub: [@githubhandle](https://github.com/IvonneBenitesRodriguez)
 - 🌷Twitter: [@twitterhandle](https://twitter.com/IvonneBenitesR)
 - 🌷LinkedIn: [LinkedIn](https://www.linkedin.com/in/ivonnebenites/)
+  
+    
+👤 *Gilbert  Dushimimana Happi*
+
+- Github: [Gilbert Happi Dushimimana](https://github.com/gilberthappi)
+- X: [Gilbert Happi Dushimimana](https://twitter.com/DushimimanaGil3)
+- LinkedIn: [Gilber Happi Dushimimana](https://www.linkedin.com/in/dushimimana-gilbert-happi-997b2a262/)
+ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭🌷 Future Features <a name="future-features"></a>
 
-- [ ] **[Refactor-code]**
-- [ ] **[preserve data]**
+- [ ] **[Preserve Data]**
+- [ ] **[Make tests]**
   
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
