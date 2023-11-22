@@ -7,12 +7,12 @@ require_relative 'rental'
 
 # class representing a person
 class Person < Nameable
-  attr_accessor :name, :age, :rentals
-  attr_reader :id, :classroom
+  attr_accessor :id, :name, :age, :rentals
+  attr_reader :classroom
 
-  def initialize(name, age = 'Unknown', parent_permission: true)
+  def initialize(name = 'no-name-registered', age = 'Unknown', id = rand(1..1000), parent_permission: true)
     super()
-    @id = rand(1..1000)
+    @id = id
     @name = name
     @age = age
     @parent_permission = parent_permission
@@ -30,5 +30,20 @@ class Person < Nameable
 
   def correct_name
     @name
+  end
+
+  def to_h
+    {
+      'id' => @id,
+      'name' => @name,
+      'age' => @age,
+      'parent_permission' => @parent_permission
+    }
+  end
+
+  private
+
+  def of_age?
+    @age >= 18
   end
 end
