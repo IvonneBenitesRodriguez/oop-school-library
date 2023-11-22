@@ -6,7 +6,6 @@ module RentalsDataManipulation
 
     if File.exist?(file_path)
       current_data = File.read(file_path)
-
       parsed_data = JSON.parse(current_data) unless current_data.empty?
     end
 
@@ -29,12 +28,18 @@ module RentalsDataManipulation
   end
 
   def load_rentals_from_json(file_path)
+    parsed_data = []
+
     if File.exist?(file_path)
       current_data = File.read(file_path)
       parsed_data = JSON.parse(current_data) unless current_data.empty?
-
-      return [] if parsed_data.nil?
+    else
+      # Create the directory and the file if they don't exist
+      FileUtils.mkdir_p(File.dirname(file_path))
+      File.write(file_path, [].to_json)
     end
+
+    return [] if parsed_data.nil?
 
     parsed_data.map do |rental_data|
       person = Person.new(rental_data['person']['name'], rental_data['person']['age'], rental_data['person']['id'])
