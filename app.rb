@@ -6,11 +6,10 @@ require_relative 'rental'
 require_relative 'classroom'
 require_relative 'storage'
 require_relative 'save_to_json'
-require_relative  'load_from_json'
+require_relative 'load_from_json'
 
 require_relative 'modules/create_entities'
 require_relative 'modules/list_entities'
-
 
 class App
   include CreateEntities
@@ -21,9 +20,9 @@ class App
   attr_accessor :books, :people, :rentals
 
   def initialize
-    @save_books_data = SaveData.new("db/books.json")
-    @save_people_data = SaveData.new("db/people.json")
-    @save_rentals_data = SaveData.new("db/rentals.json")
+    @save_books_data = SaveData.new('db/books.json')
+    @save_people_data = SaveData.new('db/people.json')
+    @save_rentals_data = SaveData.new('db/rentals.json')
     @books = load_books_data || []
     @people = load_people_from_json || []
     @rentals = load_rentals_from_json || []
