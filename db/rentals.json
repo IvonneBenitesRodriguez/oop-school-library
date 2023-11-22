@@ -78,21 +78,21 @@
 //       "name": "Belete",
 //       "age": 33
 //     },
-    "book": {
-      "title": "\"Les bateaux rouge\"",
-      "author": "\"Victor Hugo\""
-    }
-  },
-  {
-    "date": "2023-11-21",
-    "person": {
-      "id": 553,
-      "name": "\"Victor Coronado\"",
-      "age": 77
-    },
-    "book": {
-      "title": "\"Les bateaux rouge\"",
-      "author": "\"Victor Hugo\""
-    }
-  }
-]
+//     "book": {
+//       "title": "\"Les bateaux rouge\"",
+//       "author": "\"Victor Hugo\""
+//     }
+//   },
+//   {
+//     "date": "2023-11-21",
+//     "person": {
+//       "id": 553,
+//       "name": "\"Victor Coronado\"",
+//       "age": 77
+//     },
+//     "book": {
+//       "title": "\"Les bateaux rouge\"",
+//       "author": "\"Victor Hugo\""
+//     }
+//   }
+// ]
