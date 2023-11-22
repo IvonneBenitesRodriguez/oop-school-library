@@ -11,24 +11,24 @@ require_relative 'modules/people_data_manipulation'
 require_relative 'modules/books_data_manipulation'
 require_relative 'modules/rentals_data_manipulation'
 
-# RENTALS_PATH = './db/rentals.json'.freeze
-# PEOPLE_PATH = './db/people.json'.freeze
-# BOOKS_PATH = './db/books.json'.freeze
+RENTALS_PATH = './db/rentals.json'.freeze
+PEOPLE_PATH = './db/people.json'.freeze
+BOOKS_PATH = './db/books.json'.freeze
 
-# class App
-#   include CreateEntities
-#   include ListEntities
-#   include RentalsDataManipulation
-#   include PeopleDataManipulation
-#   include BooksDataManipulation
+class App
+  include CreateEntities
+  include ListEntities
+  include RentalsDataManipulation
+  include PeopleDataManipulation
+  include BooksDataManipulation
 
-#   attr_accessor :books, :people, :rentals
+  attr_accessor :books, :people, :rentals
 
-#   def initialize
-#     @books = load_books_from_json(BOOKS_PATH)
-#     @people = load_people_from_json(PEOPLE_PATH)
-#     @rentals = load_rentals_from_json(RENTALS_PATH)
-#   end
+  def initialize
+    @books = load_books_from_json(BOOKS_PATH)
+    @people = load_people_from_json(PEOPLE_PATH)
+    @rentals = load_rentals_from_json(RENTALS_PATH)
+  end
 
   def create_person
     person = super

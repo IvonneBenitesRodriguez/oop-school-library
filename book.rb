@@ -12,10 +12,10 @@ class Book
     @rentals << Rental.new(date, self, person)
   end
 
-  # def to_h
-  #   {
-  #     'title' => @title,
-  #     'author' => @author
-  #   }
-  # end
+  def to_h
+    {
+      'title' => @title,
+      'author' => @author
+    }
+  end
 end
