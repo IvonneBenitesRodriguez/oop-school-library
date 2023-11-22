@@ -33,7 +33,7 @@
     <li><a href="https://www.ruby-lang.org/es/">Ruby🌷</a></li>
   </ul>
 </details>
-<!-- 
+
 ### 🌸🌷 Key Features <a name="key-features"></a>
 - **[Refactor code]**
 - **[SOLID Principles used]**
@@ -41,7 +41,7 @@
 - **[Single Responsability Principle used]**
 - **[Ruby linters passed]** 
 - **[Save Data on JSON]**
-- **[Retrieve Data from JSON]** -->
+- **[Retrieve Data from JSON]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
