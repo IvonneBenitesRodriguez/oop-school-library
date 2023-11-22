@@ -46,53 +46,5 @@
       "title": "The-change",
       "author": "Jenny-Vidal"
     }
-  },
-  {
-    "date": "",
-    "person": {
-      "id": 335,
-      "name": "Belete",
-      "age": 33
-    },
-    "book": {
-      "title": "1",
-      "author": "1"
-    }
-  },
-  {
-    "date": "",
-    "person": {
-      "id": 556,
-      "name": "Mark",
-      "age": 18
-    },
-    "book": {
-      "title": "2",
-      "author": "2"
-    }
-  },
-  {
-    "date": "2023-11-21",
-    "person": {
-      "id": 335,
-      "name": "Belete",
-      "age": 33
-    },
-    "book": {
-      "title": "\"Les bateaux rouge\"",
-      "author": "\"Victor Hugo\""
-    }
-  },
-  {
-    "date": "2023-11-21",
-    "person": {
-      "id": 553,
-      "name": "\"Victor Coronado\"",
-      "age": 77
-    },
-    "book": {
-      "title": "\"Les bateaux rouge\"",
-      "author": "\"Victor Hugo\""
-    }
-  }
+}
 ]
