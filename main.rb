@@ -1,18 +1,20 @@
-require_relative 'app'
-require_relative 'modules/user_interface'
+require_relative 'message_class'
+require_relative 'app_class'
 
-class Main
-  include UserInterface
-  def initialize
-    @app = App.new
-  end
-
-  def main
-    loop do
-      option = display_menu
-      handle_option(@app, option)
+def main
+  app = App.new
+  Message.welcome_message
+  loop do
+    Message.display_options
+    option = gets.chomp
+    if option == '7'
+      app.close_app
+      break
     end
+    puts ''
+    app.handle_option(option)
   end
+  Message.close_message
 end
 
-Main.new.main
+main

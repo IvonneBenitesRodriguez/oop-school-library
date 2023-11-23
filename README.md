@@ -7,7 +7,6 @@
 - [📖 \[oop\_school\_library\] ](#-oop_school_library-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
-    - [🌸🌷 Key Features ](#-key-features-)
   - [💻 Getting Started ](#-getting-started-)
     - [🌷Setup](#setup)
   - [🌷 Author ](#-author-)
@@ -21,7 +20,7 @@
 
 # 📖 [oop_school_library] <a name="about-project"></a>
 *OOP School Library* is a school library app. In this part of the project,
- we had refactored our code using the principle of **SRP Single Responsability Principle**.
+ we are preserving data from our app and load that preserved data.
 <br/>
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -41,6 +40,8 @@
 - **[Ruby Style Guide used]**
 - **[Single Responsability Principle used]**
 - **[Ruby linters passed]** 
+- **[Save Data on JSON]**
+- **[Retrieve Data from JSON]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,7 +81,6 @@ Clone this repository to your desired folder:
 
 ## 🔭🌷 Future Features <a name="future-features"></a>
 
-- [ ] **[Preserve Data]**
 - [ ] **[Make tests]**
   
 
