@@ -1,12 +1,9 @@
-require_relative 'nameable'
-
-# this class inherits the nameable features
 class Decorator < Nameable
   attr_accessor :nameable
 
   def initialize(nameable)
-    super()
     @nameable = nameable
+    super()
   end
 
   def correct_name
