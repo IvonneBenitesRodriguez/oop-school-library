@@ -20,7 +20,7 @@
 
 # 📖 [oop_school_library] <a name="about-project"></a>
 *OOP School Library* is a school library app. In this part of the project,
- we are preserving data from our app and load that preserved data.
+ we are writing unit Tests using **Rspec**.
 <br/>
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -42,6 +42,9 @@
 - **[Ruby linters passed]** 
 - **[Save Data on JSON]**
 - **[Retrieve Data from JSON]**
+- **[Add Rspec Tests]**
+- **[Create Rspec Tests for all methods and classes]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,7 +84,7 @@ Clone this repository to your desired folder:
 
 ## 🔭🌷 Future Features <a name="future-features"></a>
 
-- [ ] **[Make tests]**
+- [ ] **[Implement better visual interface]**
   
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
