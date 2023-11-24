@@ -137,8 +137,8 @@ class App
   end
 
   def close_app
-    write_file('books.json', @books)
-    write_file('people.json', @people)
-    write_file('rentals.json', @rentals)
+    write_file('./db/books.json', @books)
+    write_file('./db/people.json', @people)
+    write_file('./db/rentals.json', @rentals)
   end
 end
